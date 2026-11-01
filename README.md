@@ -49,4 +49,3 @@ Extract the **Source.zip** into a new folder and upload that folder as the repos
 Choose a license for your own code before announcing it as open source. Third-party licenses remain in the distribution; see `THIRD-PARTY-NOTICES.md`.
 
 Match Home Screen mirrors the current desktop both inside and outside saved places, and mirrors the default at shutdown. With Match Home off, Match Default selects the default wallpaper; with both off, the independent lock image is used. Default and independent lock pickers accept videos even with the location carousel enabled. Default videos play on the desktop; lock-screen videos use a generated still frame because Windows exposes an image-only lock-screen background API.
-

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+    <WindowsSdkPackageVersion>10.0.19041.57</WindowsSdkPackageVersion>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>true</SelfContained>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <DefineConstants>$(DefineConstants);HEADLESS_OUTPUT</DefineConstants>
+    <ApplicationIcon>..\app_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\StudioPaths.cs" Link="StudioPaths.cs" />
+    <Compile Include="..\WinUI3Prototype\LocationProvider.cs" Link="LocationProvider.cs" />
+    <Compile Include="..\WinUI3Prototype\LocationQuality.cs" Link="LocationQuality.cs" />
+    <Compile Include="..\WinUI3Prototype\NetworkMonitor.cs" Link="NetworkMonitor.cs" />
+    <Compile Include="..\WinUI3Prototype\BackendSettings.cs" Link="BackendSettings.cs" />
+    <Compile Include="..\WinUI3Prototype\WallpaperMedia.cs" Link="WallpaperMedia.cs" />
+    <Compile Include="..\WinUI3Prototype\WallpaperOutput.cs" Link="WallpaperOutput.cs" />
+  </ItemGroup>
+</Project>
